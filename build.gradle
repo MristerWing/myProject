@@ -40,4 +40,6 @@ dependencies {
 
     compile('com.h2database:h2')
     testCompile('com.h2database:h2')
+
+    compile('org.springframework.boot:spring-boot-starter-mustache')
 }
