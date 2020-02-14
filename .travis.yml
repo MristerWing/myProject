@@ -23,7 +23,6 @@ before_deploy:
   - cd ../ && mkdir -p deploy # 상위 디렉토리로 이동 후 deploy디렉토리 생성
   - mv before-deploy/before-deploy.zip deploy/myProject.zip # deploy로 zip 파일 이동
 
-
 deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY # Travis repo setting 설정 값
